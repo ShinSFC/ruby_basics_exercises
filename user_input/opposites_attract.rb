@@ -7,12 +7,12 @@ second_input = nil
 
 loop do
   puts ">> Please enter a positive or negative integer:"
-  first_input = gets.chomp.to_i
+  first_input = gets.chomp
   if valid_number?(first_input)
     puts ">> Invalid input. Only non-zero integers allowed."
   end
   puts ">> Please enter a positive or negative integer:"
-  second_input = gets.chomp.to_i
+  second_input = gets.chomp
   if valid_number?(second_input)
     puts ">> Invalid input. Only non-zero integers allowed."
   end
